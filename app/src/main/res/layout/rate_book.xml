@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="2dip">
+
+    <TextView
+        android:id="@+id/rateBookText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/rateThisBook"
+        android:textSize="24dp" />
+
+    <RatingBar
+        android:id="@+id/rateBookRatingbar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="2"
+        android:stepSize="1.0" />
+
+    <Button
+        android:id="@+id/rateBookButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:focusable="false"
+        android:text="@string/update"
+        android:textColor="#FFF8C6"
+        android:textSize="20dip" />
+
+</LinearLayout>

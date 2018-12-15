@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Mi Estantería</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!--STRINGS DEL PROYECTO-->
+    <string name="by">Por </string>
+    <string name="started">Empezado el</string>
+    <string name="ended">Terminado el</string>
+    <string name="author">Autor</string>
+    <string name="title">Título</string>
+    <string name="sumary">Resumen</string>
+
+    <string name="navigation_drawer_open">Navigation Drawer Open</string>
+    <string name="navigation_drawer_close">Navigation Drawer Close</string>
+
+    <string name="editbook">Editar libro</string>
+    <string name="addbook">Añadir libro</string>
+    <string name="deletebook">Borrar libro</string>
+    <string name="confirm_deletebook">¿Seguro que desea borrar este libro? No podrá recuperarlo.</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="imagesaved">¡Imagen guardada!</string>
+
+    <!-- ///////EMAIL////////-->
+    <string name="noemail">Sin email para mostrar</string>
+    <string name="not_results">No se han encontrado contactos.</string>
+    <string name="permissionRequired">Se requieren permisos para cargar los Contactos.\nHabilítalos desde Ajustes > Aplicaciones > Permisos.</string>
+    <string name="irecomendyou">Te recomiendo leer \u0020</string>
+    <string name="abookof">, un libro de \u0020</string>
+    <string name="myresume">. Echa un vistazo a mis impresiones:\n</string>
+
+    <!--////////////////////-->
+
+
+    <string name="rateThisBook">Valora este libro</string>
+    <string name="title_activity_bookshelf_main">BookshelfMain</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+
+    <string name="action_example">Example action</string>
+    <string name="searchTitle">¡Introduce título o autor!</string>
+    <string name="update">Guardar</string>
+    <string name="filter">Filtrar</string>
+    <string name="filterBooks">¿Qué libros deseas mostrar?</string>
+    <string name="toread">Por leer</string>
+    <string name="reading">Leyendo</string>
+    <string name="finished">Terminados</string>
+    <string name="dropped">Abandonados</string>
+    <string name="all">Todos</string>
+    <string name="cancel">Cancelar</string>
+    <string name="recommend">¿Recomendar este libro?</string>
+    <string name="cancelX">X</string>
+    <string name="myBookshelf">Mi Estantería</string>
+    <string name="description">Anota, valora y reseña tus libros preferidos</string>
+    <string name="emptyText">¡Todavía no has añadido ningún libro a tu colección! \n Presiona el icono "+" para comenzar.</string>
+
+
+    <!--////////AYUDA///////-->
+    <string name="title_activity_help">Help</string>
+    <string name="helpT1">¿Cómo comenzar?</string>
+    <string name="helpT2">Al comenzar no tendrás ningún libro disponible: debes añadirlo. Para hacerlo, ve a la pantalla principal de la aplicación y selecciona este icono:</string>
+    <string name="helpT3">Elegir una portada</string>
+    <string name="helpT4">Puedes elegir una portada de entre las imágenes de tu dispositivo. Puedes fotografiar la portada de tu libro físico, pero para mayor calidad te recomendamos que descargues la imagen de la portada de Internet. Si lo deseas, también puedes dejar la Portada Predeterminada. Para cargar tu portada en la aplicación, entra en la pantalla de añadir libros y selecciona este icono:</string>
+    <string name="helpT5">Visualizar un libro</string>
+    <string name="helpT6">Una vez que hayas añadido un libro, aparecerá en el Menú Principal. Puedes consultar los datos referentes a tu libro pulsando sobre él. Si tienes muchos libros, quizá tengas problemas para localizarlos. Puedes escribir el título o el autor del libro en la barra de búsqueda, o filtrar la lista de libros según su estatus. También puedes ordenarlos alfabéticamente o por fecha de lectura en el panel lateral de la aplicación.</string>
+    <string name="helpT7">Editar un libro</string>
+    <string name="helpT8">Mientras te encuentras en la pantalla de visualización de un libro, podrás editarlo. Para ello, simplemente toca este icono:</string>
+    <string name="helpT9">Serás trasladado a la pantalla de edición, en la que podrás editar los datos del libro, modificar su estatos y, en caso de que lo hayas terminado o abandonado, añadir una valoración si no existía ya.</string>
+    <string name="returnUp">Volver arriba</string>
+
+    <string name="requiredField">Este campo es requerido para almacenar el libro.</string>
+    <string name="register">Registro</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Email</string>
+</resources>

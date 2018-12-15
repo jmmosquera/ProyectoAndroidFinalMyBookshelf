@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="2dip">
+
+    <TextView
+        android:id="@+id/rateBookText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/filterBooks"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupStatus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/text_margin"
+        android:paddingTop="@dimen/text_margin">
+
+        <RadioButton
+            android:id="@+id/status0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/all"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/status1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/toread"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/status2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/reading"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/status3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/finished"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/status4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dropped"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/filterBookPopup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:focusable="false"
+        android:text="@string/filter"
+        android:textColor="#FFF8C6"
+        android:textSize="20dip" />
+
+</LinearLayout>

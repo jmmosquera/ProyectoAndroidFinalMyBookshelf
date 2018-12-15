@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Ordenar">
+        <menu>
+            <item
+                android:id="@+id/sortbytitleAZ"
+                android:title="Por título [A-Z]"
+                />
+            <item
+                android:id="@+id/sortbytitleZA"
+                android:title="Por título [Z-A]"
+                />
+            <item
+                android:id="@+id/sortbyauthorAZ"
+                android:title="Por autor [A-Z]"
+                />
+            <item
+                android:id="@+id/sortbyauthorZA"
+                android:title="Por autor [Z-A]"
+                />
+            <item
+                android:id="@+id/oldest"
+                android:title="Más antiguos"
+                />
+            <item
+                android:id="@+id/newest"
+                android:title="Más recientes"
+                />
+            <item
+                android:id="@+id/lastfinished"
+                android:title="Últimos terminados"
+                />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/title_activity_help" />
+    </group>
+
+</menu>

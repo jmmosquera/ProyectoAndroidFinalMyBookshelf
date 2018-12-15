@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarHelp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarHelp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/linkH1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="@string/helpT1"
+                android:textColor="@color/design_default_color_primary" />
+
+            <Button
+                android:id="@+id/linkH2"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="@string/helpT3"
+                android:textColor="@color/design_default_color_primary" />
+
+            <Button
+                android:id="@+id/linkH3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="@string/helpT5"
+                android:textColor="@color/design_default_color_primary" />
+
+            <Button
+                android:id="@+id/linkH4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="@string/helpT7"
+                android:textColor="@color/design_default_color_primary" />
+
+            <TextView
+                android:id="@+id/helpT1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/nav_header_vertical_spacing"
+                android:text="@string/helpT1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/helpT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/nav_header_vertical_spacing"
+                android:text="@string/helpT2" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_library_add"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="154dp" />
+
+            <TextView
+                android:id="@+id/helpT3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/nav_header_vertical_spacing"
+                android:text="@string/helpT3"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/helpT4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/nav_header_vertical_spacing"
+                android:text="@string/helpT4" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/design_default_color_primary"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/helpT5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/nav_header_vertical_spacing"
+                android:text="@string/helpT5"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/helpT6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/nav_header_vertical_spacing"
+                android:text="@string/helpT6" />
+
+            <TextView
+                android:id="@+id/helpT7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/nav_header_vertical_spacing"
+                android:text="@string/helpT7"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/helpT8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/nav_header_vertical_spacing"
+                android:text="@string/helpT8" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:padding="8dp"
+                app:srcCompat="?attr/actionModeCutDrawable" />
+
+            <TextView
+                android:id="@+id/helpT9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/nav_header_vertical_spacing"
+                android:text="@string/helpT9" />
+
+            <Button
+                android:id="@+id/linkH5"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/returnUp"
+                android:textColor="@color/design_default_color_primary" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

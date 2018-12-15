@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="readingStatus">
+        <item>Quiero leerlo</item>
+        <item>Lo estoy leyendo</item>
+        <item>Lo he acabado</item>
+        <item>Lo he abandonado</item>
+    </string-array>
+</resources>

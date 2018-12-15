@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="2dip">
+
+    <TextView
+        android:id="@+id/rateBookText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/recommend"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMail"
+        android:layout_width="match_parent"
+        android:layout_height="256dp" />
+
+    <Button
+        android:id="@+id/cancelMail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:focusable="false"
+        android:text="@string/cancel"
+        android:textColor="#FFF8C6"
+        android:textSize="20dip" />
+
+</LinearLayout>
